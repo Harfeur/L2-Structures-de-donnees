@@ -39,7 +39,7 @@ class ListeContigueTest {
 	
 	@Test
 	public void test2() {
-		assertThrows(ExceptionIndiceHorsLimites.class, () -> l.inserer(1, 'a'), "Expected");
+		assertThrows(ExceptionIndiceHorsLimites.class, () -> l.inserer(1, 'a'));
 	}
 
 	public void test3() {
