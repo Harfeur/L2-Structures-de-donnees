@@ -33,13 +33,11 @@ public class AnalyseFrequentielle {
     		else dico.put(c, 1);
 		}
     	for (int i = 0; i < 6; i++) {
-    		char maxChar = 'a';
+    		Character maxChar = 'a';
     		int maxInt = 0;
-			dico.forEach((key, value) -> {
-				if (value > maxInt) {
-					maxChar = key.charValue();
-				}
-			});
+    		for (Character key : dico.keySet()) {
+    			
+    		}
 		}
     }
     */
