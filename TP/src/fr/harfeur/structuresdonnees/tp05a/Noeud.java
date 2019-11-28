@@ -1,4 +1,4 @@
-package fr.harfeur.structuresdonnees.tp05;
+package fr.harfeur.structuresdonnees.tp05a;
 
 public class Noeud {
 	

@@ -1,4 +1,4 @@
-package fr.harfeur.structuresdonnees.tp05;
+package fr.harfeur.structuresdonnees.tp05a;
 
 import java.util.Scanner;
 

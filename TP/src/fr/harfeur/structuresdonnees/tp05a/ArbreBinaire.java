@@ -1,9 +1,10 @@
-package fr.harfeur.structuresdonnees.tp05;
+package fr.harfeur.structuresdonnees.tp05a;
 
 public class ArbreBinaire<E> {
 
-	private ArbreBinaire<E> gauche, droite;
-	private E étiquette;
+	protected ArbreBinaire<E> gauche, droite; // private = uniquement classe
+	protected E étiquette; // protacted = enfants
+	// public (par défaut) = tout le monde
 	
 	public ArbreBinaire() {
 		super();
