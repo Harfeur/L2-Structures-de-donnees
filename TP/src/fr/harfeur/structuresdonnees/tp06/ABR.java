@@ -1,7 +1,6 @@
 package fr.harfeur.structuresdonnees.tp06;
 
 import fr.harfeur.structuresdonnees.tp05a.ArbreBinaire;
-import fr.harfeur.structuresdonnees.tp05a.ExceptionArbreVide;
 
 public class ABR<E extends Comparable<E>> extends ArbreBinaire<E> {
 	
